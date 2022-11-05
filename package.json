@@ -1,0 +1,42 @@
+{
+  "name": "bookmarks-converter",
+  "version": "1.0.0",
+  "description": "Convert browser-exported HTML bookmarks to JSON format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "author": "James Levine (https://github.com/jameslevine)",
+  "homepage": "https://github.com/jameslevine/bookmarks-converter-script#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorapeteri/bookmarks-converter-script.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jameslevine/bookmarks-converter-script/issues"
+  },
+  "keywords": [
+    "bookmarks",
+    "bookmark",
+    "json",
+    "object",
+    "chrome",
+    "firefox",
+    "browser",
+    "export",
+    "exported",
+    "netscape",
+    "html"
+  ],
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4"
+  }
+}
